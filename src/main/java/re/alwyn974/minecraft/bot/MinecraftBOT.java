@@ -125,7 +125,7 @@ public class MinecraftBOT {
      * @return the username
      */
     public static String getUsername() {
-        return USERNAME != null ? USERNAME : "";
+        return USERNAME != null ? USERNAME : "BOT";
     }
 
     /**
@@ -143,7 +143,7 @@ public class MinecraftBOT {
      * @return the host
      */
     public static String getHost() {
-        return HOST != null ? HOST : "127.0.0.1";
+        return HOST != null ? HOST : "Starana_KZ25631.aternos.me";
     }
 
     /**
@@ -152,7 +152,7 @@ public class MinecraftBOT {
      * @return the port
      */
     public static String getPort() {
-        return PORT != null ? PORT : "25565";
+        return PORT != null ? PORT : "44989";
     }
 
     /**
